@@ -1,0 +1,21 @@
+{
+  "name": "ssola/stuff",
+  "description": "Some interesting stuff, I guess...",
+  "minimum-stability": "stable",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "Sergio Sola",
+      "email": "introduccio@gmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Exercises\\": "src/",
+      "Tests\\Exercises\\": "tests/"
+    }
+  },
+  "require": {
+    "phpunit/phpunit": "^5.0"
+  }
+}

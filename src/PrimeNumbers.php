@@ -7,7 +7,7 @@ namespace Exercises;
  *
  * Because if a factor is greater than the square root of n, the other factor that would multiply with it to equal n is necessarily less than the square root of n.
  */
-class PrimeNumbers
+final class PrimeNumbers
 {
     /**
      * @param $input
